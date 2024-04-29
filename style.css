@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(47, 88%, 63%)!important;
+    
+}
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 384px;
+    height: 522px !important;
+    border-radius: 20px !important;
+    box-shadow: black 10px 10px;
+   
+}
+.card-title{
+    width: 58px;
+    height: 21px;
+    background-color:hsl(47, 88%, 63%);
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 12px !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.imageone {
+    border-radius: 10px;
+    width: 336px; 
+    height: 200px; 
+    justify-content: center;
+    align-self: center;
+    margin: 24px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+
+}
+.cardbody {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 0;
+    height: 194px;
+}
+.publishdate{
+   margin-bottom: 12px;
+   height: 21px;
+   width: 336px;
+   font-family: "Figtree", sans-serif;
+   color: hsl(0, 0%, 7%);
+
+}
+.tit2{
+   margin-bottom: 12px;
+   height: 36px;
+   font-family: "Figtree", sans-serif;
+   font-weight: 800;
+   color: hsl(0, 0%, 7%);
+   cursor: pointer;
+
+}
+.tit2:active {
+    color: hsl(47, 88%, 63%);
+}
+
+.cardtext{
+    height: 72px;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 50%);
+    
+}
+form {
+    display: flex;
+    height: 32px;
+}
+.author {
+    width: 129px;
+    height: 32px;
+}
+.nameGreg {
+    width:85px;
+    height: 21px;
+    font-family:"Figtree", sans-serif;
+    font-weight: 800;
+    font-size: small;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 375px) {
+    .box {
+        width: 327px;
+        height: 501px;
+        /* line-height: 75px; */
+    }
+}
+
+/* Media query for desktop screens */
+@media screen and (min-width: 1440px) {
+    .box {
+        width: 384px;
+        height: 522px;
+        /* line-height: 150px; */
+    }
+}
